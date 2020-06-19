@@ -1,0 +1,1 @@
+services.AddDbContext<ProductDbContext>(Options => Options.UseSqlServer(@"Server=DESKTOP-QJB1LD1\MSSQLSERVER01;Database=ProductsDb;Trusted_Connection=True;MultipleActiveResultSets=true"));
